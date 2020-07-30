@@ -1,0 +1,33 @@
+{
+  "name": "ipcount",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james668888/IpCount.git"
+  },
+  "author": "James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james668888/IpCount/issues"
+  },
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "homepage": "https://github.com/james668888/IpCount#readme"
+}
