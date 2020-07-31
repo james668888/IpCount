@@ -23,11 +23,7 @@ describe('api.post.test', () => {
     	setTimeout(() => {}, 1000)
         const ip1 = await api.post('/requestIp')
         			   .set('content-type', 'application/x-www-form-urlencoded')
-        			   .send({'ip' : '8.8.8.8'}) 
-        			   .end((err, res) => {
-					        //console.log(res.body)
-					        
-					   })
+        			   .send({'ip' : '8.8.8.8'})
     
 
     }
@@ -37,10 +33,7 @@ describe('api.post.test', () => {
     	setTimeout(() => {}, 300)
         const ip2 = await api.post('/requestIp')
         			   .set('content-type', 'application/x-www-form-urlencoded')
-        			   .send({'ip' : '7.7.7.7'}) 
-        			   .end((err, res) => {
-					        
-					   })
+        			   .send({'ip' : '7.7.7.7'})
     }
 
   })
